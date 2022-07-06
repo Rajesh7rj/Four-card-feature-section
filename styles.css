@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: hsl(234, 12%, 34%);
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+  /* min-width:100vh; */
+}
+
+h2{
+  margin-top: 10%;
+  font-size: 20px;
+  line-height: 0.8;
+}
+
+p{
+  color:  hsl(229, 6%, 66%);
+}
+
+svg{
+  margin-left: 10rem;
+}
+
+.main{
+ margin-top: 2rem;
+  
+}
+.main-text{
+  padding: 0 22%;
+}
+
+.heading{
+  margin-bottom: 0%;
+}
+
+.heading1{
+  font-weight: 200;
+  line-height: 0.4;
+}
+
+.cards{
+  margin: 2rem;
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+  align-items: center;
+ text-align: left;
+  
+}
+
+.card1{
+  width: 16rem;
+  height: 12rem;
+  border-radius: 2%;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px hsl(229, 6%, 66%);
+  border-top:  hsl(180, 62%, 55%) 3px solid;
+  margin-right: 2rem;
+  padding-left: 1rem;
+ }
+
+.card2{
+  width: 16rem;
+  height: 12rem;
+  border-radius: 2%;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px hsl(229, 6%, 66%);
+  border-top:   hsl(0, 78%, 62%) 3px solid;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+ }
+
+.card3{
+  width: 16rem;
+  height: 12rem;
+  border-radius: 2%;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px hsl(229, 6%, 66%);
+  border-top:   hsl(34, 97%, 64%) 3px solid;
+  padding-left: 1rem;
+ }
+
+.card4{
+  width: 16rem;
+  height: 12rem;
+  border-radius: 2%;
+  background-color: #fff;
+  box-shadow: 7px 7px 7px hsl(229, 6%, 66%);
+  border-top:  hsl(212, 86%, 64%) 3px solid;
+  margin-left: 2rem;
+  padding-left: 1rem;
+ }
+
+.card-text{
+  font-size: 13px;
+ }
+
+.attribution { 
+  font-size: 11px; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+@media (max-width:900px) {
+  body{
+    font-size: 13px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  p{
+    font-size: 16px;
+  }
+
+  .cards{
+    padding-left: 2rem;
+    display: inline-block;
+  }
+  
+  .card1{
+    width: 18rem;
+    height: 14rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  .card2{
+    width: 18rem;
+    height: 14rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  .card3{
+    width: 18rem;
+    height: 14rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  .card4{
+    width: 18rem;
+    height: 14rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  .card-text{
+    font-size: 15px;
+   }
+ }
+
+
+ @media (max-width:600px) {
+  
+  .main-text{
+    padding: 0 16%;
+    font-size: 16px;
+  }
+  
+ }
